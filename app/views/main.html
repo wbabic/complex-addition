@@ -1,0 +1,20 @@
+<script type="text/javascript">
+  var svg = d3.select("div.svg-axis").append("svg");
+  svg.attr("width", 1440)
+  .attr("height", 30)
+  .append("g")
+  .attr("transform", "translate(0,30)")
+  .call(axis);
+</script>
+<div class="hero-unit">
+  <h1>a modern webapp</h1>
+  <p>Built with Yeoman Grunt Bower</p>
+  <ul>
+      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+  </ul>
+  <p>installed.</p>
+  <h3>Geomtric Visualization -> the complex plane</h3>
+</div>
+<a href="#/svg-axis">a first view: svg axis</a>
+<div class="svg-axis">
+</div>
