@@ -1,0 +1,19 @@
+* Geometric Visualization using Complex Numbers
+** Complex Addition
+   visualize the addition of two complex numbers
+   changing a number and seeing an animation to the new numbaer and
+   the new sum
+
+   input z1 and z2
+   let z3 = z1 + z2
+   0 z1 z2 z3 is a paralellogram
+
+   style z1 z2 z3
+   create an svg graphic
+   that can auto scale to fit the three nicely
+*** view
+    app/views/addition.html
+*** controller
+    scripts/controllers/addition.js
+*** directive
+    scripts/directives/additionVisualization.js

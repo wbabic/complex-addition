@@ -7,6 +7,10 @@ angular.module('yeomanAngularApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/addition', {
+        templateUrl: 'views/addition.html',
+        controller: 'AdditionCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
