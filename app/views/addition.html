@@ -1,12 +1,33 @@
-<p>This is the addition view. Here we explore how two complex numbers
-  are added. Let z1 and z2 be any two complex numbers. Their sum is
-  represented by z3 = z1 + z2</p>
+<div class="container">
+  <h1>Addition of complex numbers</h1>
 
-<form>
-z1: <input ng-model="z1"></input>
-z2: <input ng-model="z2"></input>
-<input type="submit" value="z1 + z2"></input>
+  <div class="row">
+    <div class="span6">
+  
+      <p>This is the addition view. Here we explore how two complex numbers
+        are added. Let z1 and z2 be any two complex numbers. Their sum is
+        represented by z3 = z1 + z2</p>
 
-<addition-visualization>
-</addition-visualization>
-</form>
+      <form class="form-inline">
+        <legend>z1 = x1 + iy1</legend>
+        <fieldset>
+        <label>x1: </label>
+        <input type="text"
+               class="input-small"
+               placeholder="real"
+               ng-model="x1"></input>
+        <label>y2: </label>
+        <input type="text"
+               class="input-small"
+               placeholder="imaginary"
+               ng-model="y1"></input>
+        </fieldset>
+      </form>
+
+    </div>
+    <div class="span6">
+        <addition-visualization>
+        </addition-visualization>
+    </div>
+  </div>
+</div>
