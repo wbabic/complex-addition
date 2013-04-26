@@ -1,1 +1,63 @@
 /* Will be compiled down to a single stylesheet with your sass files */
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.div text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.z0 {
+    stroke: blue;
+    stroke-width: 1;
+    fill: none;
+}
+.z1 {
+    stroke: green;
+    stroke-width: 1;
+    fill: none;
+}
+.z2 {
+    stroke: purple;
+    stroke-width: 1;
+    fill: none;
+}
+.z3 {
+    stroke: red;
+    stroke-width: 1;
+    fill: none;
+}
+.unit {
+    stroke: grey;
+    stroke-width: 1;
+    fill: none;
+}
+
+.dashed {
+    stroke: grey;
+    stroke-width: 1;
+    stroke-dasharray: 2 2;
+}
+
+p.z0 {
+    color: blue;
+}
+p.z1 {
+    color: green;
+}
+p.z2 {
+    color: purple;
+}
+p.z3 {
+    color: red;
+}

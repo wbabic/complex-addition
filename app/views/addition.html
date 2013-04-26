@@ -9,42 +9,26 @@
         represented by z3 = z1 + z2</p>
 
       <form class="form-inline" ng-submit="calculatePolar()">
-        <legend>z1 = x1 + i y1</legend>
+        <legend>z3 = z1 + z2</legend>
         <fieldset>
-        <label>x1: </label>
+        <label>z1</label>
         <input type="text"
                class="input-small"
-               placeholder="real"
-               ng-model="x1"></input>
-        <label>y1: </label>
+               placeholder="x + iy"
+               ng-model="z1"></input>
+        <label>z2</label>
         <input type="text"
                class="input-small"
-               placeholder="imaginary"
-               ng-model="y1"></input>
-        <button type="submit" class="btn">enter</button>
-        </fieldset>
-      </form>
+               placeholder="x + iy"
+               ng-model="z2"></input>
 
-      <form class="form-inline" ng-submit="calculateRectangular()">
-        <legend>z1 = r1 e^i theta</legend>
-        <fieldset>
-        <label>r1: </label>
-        <input type="text"
-               class="input-small"
-               placeholder="modulus"
-               ng-model="r1"></input>
-        <label>theta1: </label>
-        <input type="text"
-               class="input-small"
-               placeholder="angle"
-               ng-model="a1"></input>
         <button type="submit" class="btn">enter</button>
         </fieldset>
       </form>
 
     </div>
     <div class="span6">
-        <addition-visualization>
+        <addition-visualization val="data">
         </addition-visualization>
     </div>
   </div>
