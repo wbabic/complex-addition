@@ -8,19 +8,37 @@
         are added. Let z1 and z2 be any two complex numbers. Their sum is
         represented by z3 = z1 + z2</p>
 
-      <form class="form-inline">
-        <legend>z1 = x1 + iy1</legend>
+      <form class="form-inline" ng-submit="calculatePolar()">
+        <legend>z1 = x1 + i y1</legend>
         <fieldset>
         <label>x1: </label>
         <input type="text"
                class="input-small"
                placeholder="real"
                ng-model="x1"></input>
-        <label>y2: </label>
+        <label>y1: </label>
         <input type="text"
                class="input-small"
                placeholder="imaginary"
                ng-model="y1"></input>
+        <button type="submit" class="btn">enter</button>
+        </fieldset>
+      </form>
+
+      <form class="form-inline" ng-submit="calculateRectangular()">
+        <legend>z1 = r1 e^i theta</legend>
+        <fieldset>
+        <label>r1: </label>
+        <input type="text"
+               class="input-small"
+               placeholder="modulus"
+               ng-model="r1"></input>
+        <label>theta1: </label>
+        <input type="text"
+               class="input-small"
+               placeholder="angle"
+               ng-model="a1"></input>
+        <button type="submit" class="btn">enter</button>
         </fieldset>
       </form>
 
