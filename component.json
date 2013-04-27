@@ -8,7 +8,8 @@
     "angular-resource": "git://github.com/angular/bower-angular-resource.git#~1.0.6",
     "d3": "git://github.com/mbostock/d3.git#~3.1.5",
     "bootstrap": "~2.3.1",
-    "underscore": "~1.4.4"
+    "underscore": "~1.4.4",
+    "mathjs": "~0.7.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.0.5",
