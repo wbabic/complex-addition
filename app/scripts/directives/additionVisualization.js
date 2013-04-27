@@ -71,6 +71,9 @@
             return;
           }
           console.log("newval: " + newval);
+
+          svg.selectAll('g.point').remove();
+
           var points = svg.selectAll("g.point")
             .data(newval, function(d) { return d.name });
 
