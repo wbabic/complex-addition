@@ -7,9 +7,9 @@
     "es5-shim": "~2.0.5",
     "angular-resource": "git://github.com/angular/bower-angular-resource.git#~1.0.6",
     "d3": "git://github.com/mbostock/d3.git#~3.1.5",
-    "bootstrap": "~2.3.1",
-    "underscore": "~1.4.4",
-    "mathjs": "~0.7.0"
+    "bootstrap": "git://github.com/twitter/bootstrap.git#~2.3.1",
+    "underscore": "git://github.com/documentcloud/underscore.git#~1.4.4",
+    "mathjs": "git://github.com/josdejong/mathjs.git#~0.7.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.0.5",

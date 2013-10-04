@@ -3,10 +3,12 @@
 angular.module('yeomanAngularApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
+      'HTML5 boilerplate',
       'd3',
-      'AngularJS',
-      'Karma',
-      'Twitter Bootstrap'
+      'angularjs',
+      'karma',
+      'twitter bootstrap',
+      'mathjs',
+      'lemonad and underscore'
     ];
   });

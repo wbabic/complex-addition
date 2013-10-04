@@ -1,7 +1,7 @@
 * Geometric Visualization using Complex Numbers
 ** Complex Addition
    visualize the addition of two complex numbers
-   changing a number and seeing an animation to the new numbaer and
+   changing a number and seeing an animation to the new number and
    the new sum
 
    input z1 and z2
@@ -17,3 +17,20 @@
     scripts/controllers/addition.js
 *** directive
     scripts/directives/additionVisualization.js
+** Implementation
+*** Yeoman Grunt Angular
+    grunt server
+
+    a modern webapp
+
+    http://localhost:9000/#/
+    
+** ToDo
+
+*** add MathJax and mathematical equations
+    
+*** scale view to fit sum of two given vectors
+
+*** also use canvas for displaying vectors
+
+*** add subtraction, multiplcation and division
