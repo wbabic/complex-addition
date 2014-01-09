@@ -12,6 +12,7 @@
    create an svg graphic
    that can auto scale to fit the three nicely
 
+   see demo at: http://wbabic.github.io/complex-addition/#/addition
 ** Implementation
    a modern webapp
 
