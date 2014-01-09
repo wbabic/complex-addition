@@ -1,9 +1,0 @@
-npm install -g grunt-cli 
-npm install -g yo bower 
-npm install generator-angular generator-karma 
-yo angular 
-npm install
-bower install angular 
-grunt server 
-bower install angular-resource  
-bower install d3 

@@ -11,26 +11,49 @@
    style z1 z2 z3
    create an svg graphic
    that can auto scale to fit the three nicely
+
+** Implementation
+   a modern webapp
+
+   a directive for d3 visualizations
+   based on angular-d3-demo by Brian Ford, see
+   http://briantford.com/blog/angular-d3.html
+
 *** view
     app/views/addition.html
 *** controller
     scripts/controllers/addition.js
 *** directive
     scripts/directives/additionVisualization.js
-** Implementation
-*** Yeoman Grunt Angular
-    grunt server
 
-    a modern webapp
+** Installation
+   Use node, npm, grunt, yeoman and bower.
+   Install d3.
 
-    http://localhost:9000/#/
-    
+   #+BEGIN_SRC shell
+   npm install -g grunt-cli 
+   npm install -g yo bower 
+   npm install generator-angular generator-karma 
+   yo angular 
+   npm install
+   bower install angular 
+   grunt server 
+   bower install angular-resource  
+   bower install d3 
+   #+END_SRC
+** Usage
+   #+BEGIN_SRC shell
+   grunt server
+   #+END_SRC
+
+   then open
+   http://localhost:9000/#/
+   and then for 'Addition of Complex Numbers', see
+   http://localhost:9000/#/addition
+   
+** References
 ** ToDo
-
 *** add MathJax and mathematical equations
-    
 *** scale view to fit sum of two given vectors
-
 *** also use canvas for displaying vectors
-
 *** add subtraction, multiplcation and division
